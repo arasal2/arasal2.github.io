@@ -2,63 +2,82 @@ body {
   margin: 0;
   line-height: normal;
 }
-/* deckers, aptfolio,  */
+
 :root {
   /* fonts */
-  --body-text: Inter;
+  --font-inter: Inter;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
 
   /* font sizes */
-  --font-size-5xl: 1.5rem;
-  --font-size-lgi: 1.188rem;
-  --font-size-13xl: 2rem;
-  --font-size-7xl: 1.625rem;
-  --font-size-29xl: 3rem;
-  --font-size-10xl: 1.813rem;
-  --font-size-19xl: 2.375rem;
-  --body-text-size: 1.25rem;
+  --font-size-sm: 0.875rem;
   --font-size-base: 1rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-3xl: 1.375rem;
+  --font-size-10xl: 1.813rem;
+  --font-size-xs: 0.75rem;
+  --font-size-lg: 1.125rem;
 
   /* Colors */
-  --color-gray: #0b0c0c;
-  --color-black: #000;
-  --color-antiquewhite: #f7e5d6;
-  --color-peachpuff: rgba(255, 217, 185, 0.79);
+  --color-seashell: #fff6ef;
+  --purple-lighter: #eae6fe;
   --color-peru: #9f7b47;
-  --color-snow: #fffbf8;
-  --color-darkslategray: #333;
+  --color-saddlebrown-100: #85612e;
+  --purple-light: #f5f3fe;
+  --cinder-light: #656d72;
+  --color-darkslategray: #232e35;
+  --white: #fff;
+  --color-gainsboro-100: #e6e6e6;
+  --color-gainsboro-300: #e6ded6;
+  --light-4: #d9d9d9;
+  --color-gainsboro-200: rgba(230, 230, 230, 0.09);
+  --color-gainsboro-400: rgba(230, 222, 214, 0.09);
+  --color-whitesmoke: #f1f1f1;
+  --color-antiquewhite: #f7e5d6;
   --color-lightgray: #deccbd;
 
-  /* Spacing */
-  --spacing-xs: 0.5rem;
-  --spacing-m: 3rem;
-
   /* Gaps */
-  --gap-11xl: 1.875rem;
-  --gap-5xs: 0.5rem;
+  --gap-xl: 1.25rem;
+  --gap-xxl: 21.25rem;
+  --gap-base: 1rem;
+  --gap-lg: 1.125rem;
+  --gap-78xl: 6.063rem;
   --gap-29xl: 3rem;
-  --gap-5xl: 1.5rem;
+  --gap-mini: 0.938rem;
+  --gap-5xs: 0.5rem;
+  --gap-3xs: 0.625rem;
+  --gap-9xs-5: 0.219rem;
 
   /* Paddings */
-  --padding-24xl: 2.688rem;
-  --padding-19xl: 2.375rem;
-  --padding-34xl: 3.313rem;
-  --padding-9xl: 1.75rem;
-  --padding-6xl: 1.563rem;
-  --padding-92xl: 6.938rem;
-  --padding-28xl: 2.938rem;
-  --padding-11xs: 0.125rem;
-  --padding-5xl: 1.5rem;
+  --padding-10xs: 0.188rem;
   --padding-xl: 1.25rem;
-  --padding-29xl: 3rem;
-  --padding-8xl: 1.688rem;
-  --padding-30xl: 3.063rem;
-  --padding-150xl: 10.563rem;
-  --padding-65xl: 5.25rem;
-  --padding-23xl: 2.625rem;
+  --padding-305xl: 20.25rem;
+  --padding-505xl: 40.25rem;
+  --padding-66xl: 5.313rem;
+  --padding-36xl: 3.438rem;
+  --padding-17xl: 2.25rem;
+  --padding-54xl: 4.563rem;
+  --padding-base: 1rem;
+  --padding-8xs: 0.313rem;
+  --padding-9xs: 0.25rem;
+  --padding-5xl: 1.5rem;
   --padding-mini: 0.938rem;
-  --padding-mini-xs: 0.638rem;
+  --padding-67xl: 5.375rem;
+  --padding-21xl: 2.5rem;
+  --padding-4xs-3: 0.519rem;
+  --padding-7xs: 0.375rem;
+  --padding-6xs: 0.438rem;
+  --padding-sm: 0.875rem;
+  --padding-13xl: 2rem;
+  --padding-10xs-5: 0.156rem;
+  --padding-143xl: 10.125rem;
+  --padding-103xl: 7.625rem;
+  --padding-mid: 1.063rem;
+  --padding-16xl: 2.188rem;
+  --padding-11xl: 1.875rem;
+  --padding-42xl: 3.813rem;
 
   /* Border radiuses */
-  /* --br-63xl: 82px; */
-  --br-63xl: 20px;
+  --br-5xs: 8px;
+  --br-base: 16px;
+  --br-9xs: 4px;
 }
