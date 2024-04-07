@@ -18,46 +18,118 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
 });
+
 //default class to About weight
 document.addEventListener("DOMContentLoaded", function() {
   // Add 'active' class to the "About" navigation link
   const aboutNavLink = document.querySelector('.about a');
   aboutNavLink.classList.add('navBar-font-weight');
 });
-  
 
-//expereince selectc hange applle class
+
+//github redirect
 document.addEventListener("DOMContentLoaded", function() {
-const sofiDiv = document.getElementById('sofi-select');
-sofiDiv.classList.add('applle');
+  const githubIcon = document.querySelector('.github-icon1');
+  const githubIconHomePage = document.querySelector('.github-icon');
+  const githubUrl = 'https://github.com/arasal2';
+  
+  githubIcon.addEventListener('click', function() {
 
-const parentDiv = document.querySelector('.applle-parent');
-parentDiv.querySelectorAll('img').forEach(img => {
-    img.style.display = 'none';
+    // Open the GitHub page in a new tab
+    window.open(githubUrl, '_blank');
+  });
+
+  githubIconHomePage.addEventListener('click', function() {
+
+    // Open the GitHub page in a new tab
+    window.open(githubUrl, '_blank');
+  });
 });
 
-const svg = sofiDiv.querySelector('img');
-if (svg) {
-    svg.style.display = 'block';
-}
+//linkedIn Redirect
+document.addEventListener("DOMContentLoaded", function() {
+  const linkedInIcon = document.querySelector('.linkedin-icon1');
+  const linkedInHomePage = document.querySelector('.linkedin-icon');
+  const linkedInUrl = 'http://www.linkedin.com/in/arasal1';
+  
+  linkedInIcon.addEventListener('click', function() {
+    window.open(linkedInUrl, '_blank');
+  });
 
-const divs = parentDiv.querySelectorAll('div');
-divs.forEach(div => {
-    div.addEventListener('click', function() {
-    divs.forEach(d => {
-        d.classList.remove('applle');
-    });
-    
-    this.classList.add('applle');
-    
-    parentDiv.querySelectorAll('img').forEach(img => {
-        img.style.display = 'none';
-    });
+  linkedInHomePage.addEventListener('click', function() {
 
-    const svg = this.querySelector('img');
-    if (svg) {
-        svg.style.display = 'block';
-    }
-    });
+    // Open the GitHub page in a new tab
+    window.open(linkedInUrl, '_blank');
+  });
 });
+
+
+//github redirect
+document.addEventListener("DOMContentLoaded", function() {
+  const githubIcon = document.querySelector('.github-icon1');
+  const githubIconHomePage = document.querySelector('.github-icon');
+  const githubUrl = 'https://github.com/arasal2';
+  
+  githubIcon.addEventListener('click', function() {
+
+    // Open the GitHub page in a new tab
+    window.open(githubUrl, '_blank');
+  });
+
+  githubIconHomePage.addEventListener('click', function() {
+
+    // Open the GitHub page in a new tab
+    window.open(githubUrl, '_blank');
+  });
+});
+
+// JavaScript
+document.addEventListener("DOMContentLoaded", function() {
+  const emailIcon = document.querySelector('.email-icon1');
+  const emailIconHomePage = document.querySelector('.email-icon');
+  
+  const emailAddress = 'akashrrasal@gmail.com';
+
+  // Event listener for clicking on the email icon
+  emailIcon.addEventListener('click', function() {
+    const subject = 'Hello, Akash wanted to get int touch';
+    const body = 'Hello,';
+    const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+  });
+
+  emailIconHomePage.addEventListener('click', function() {
+    const subject = 'Hello, Akash wanted to get int touch';
+    const body = 'Hello,';
+    const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+  });
+
+
+});
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const downloadButton = document.getElementById('download-resume-id');
+
+  downloadButton.addEventListener('click', function() {
+    // GitHub raw file URL of the PDF
+    const pdfUrl = 'https://raw.githubusercontent.com/username/repository/main/filename.pdf';
+    
+    // Create a link element
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'filename.pdf'; // Set the filename for the downloaded file
+    link.target = '_blank'; // Open the link in a new tab
+    
+    // Append the link to the document body
+    document.body.appendChild(link);
+    
+    // Programmatically trigger the click event on the link
+    link.click();
+    
+    // Remove the link from the document body
+    document.body.removeChild(link);
+  });
 });
