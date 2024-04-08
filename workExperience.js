@@ -150,7 +150,7 @@ function sofiExperienceInner(){
                           <div class="swift1">Kotlin</div>
                         </button>
                         <button class="tag2">
-                          <div class="swift2">Spring Boot</div>
+                          <div class="swift2">SpringBoot</div>
                         </button>
                         <button class="tag2">
                           <div class="swift3">PostgresSQL</div>
