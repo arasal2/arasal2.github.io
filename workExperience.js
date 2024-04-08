@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
       function clearContent(divId) {
           // console.log('asd');
-          experienceInner.innerHTML = 'adasdsasdasd';
+          experienceInner.innerHTML = '';
       }
       if(window.innerWidth <= 825){
         
