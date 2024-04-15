@@ -1842,7 +1842,7 @@ a{
 .footer {
   flex: 1;
   background-color: var(--color-seashell);
-  justify-content: space-between;
+  justify-content: center;
   padding: 6.813rem 40.563rem 6.75rem;
   gap: var(--gap-xl);
 }
