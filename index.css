@@ -2155,7 +2155,7 @@ a{
     gap: var(--gap-xl);
   }
   .service-item2 {
-    gap: 3.625rem 1.813rem;
+/*     gap: 3.625rem 1.813rem; */
   }
   .items {
     gap: 1.75rem 3.5rem;
