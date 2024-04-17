@@ -2149,13 +2149,13 @@ a{
     font-size: var(--font-size-3xl);
   }
   .service-item {
-    gap: 4.125rem 1rem;
+/*     gap: 4.125rem 1rem; */
   }
   .service-item1 {
     gap: var(--gap-xl);
   }
   .service-item2 {
-/*     gap: 3.625rem 1.813rem; */
+    gap: 3.625rem 1.813rem;
   }
   .items {
     gap: 1.75rem 3.5rem;
