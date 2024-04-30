@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   downloadButton.addEventListener('click', function() {
     // GitHub raw file URL of the PDF
-    const pdfUrl = 'https://raw.githubusercontent.com/username/repository/main/filename.pdf';
+    const pdfUrl = 'https://github.com/arasal2/portfolio/raw/main/Resume/Resume_AkashRasal.pdf';
     
     // Create a link element
     const link = document.createElement('a');
